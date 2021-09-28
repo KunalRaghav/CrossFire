@@ -46,6 +46,11 @@ object QuestionsBank {
             false,
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
         )
+        Question(
+            "Walt Disney started sketching when he was 12 years old.",
+            false,
+            "Walt Disney started sketching regularly when he was just four years old"
+        )
     )
 
 
