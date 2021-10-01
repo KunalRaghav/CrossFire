@@ -50,6 +50,11 @@ object QuestionsBank {
             "Copyrights depreciate over time.",
             true,
             "Because copyrights have an expiration date, their value decreases as that date approaches."
+        ),
+        Question(
+            "Muddy York is a nickname for New York in the Winter.",
+            false,
+            "It’s an old nickname given to Toronto, originally called Town of York in honor of The Duke of York. It refers to historical problems in the city’s drainage system."
         )
     )
 
