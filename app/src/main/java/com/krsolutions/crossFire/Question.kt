@@ -45,6 +45,11 @@ object QuestionsBank {
             "People may sneeze or cough while sleeping deeply.",
             false,
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
+        ),
+        Question(
+            "Copyrights depreciate over time.",
+            true,
+            "Because copyrights have an expiration date, their value decreases as that date approaches."
         )
     )
 
