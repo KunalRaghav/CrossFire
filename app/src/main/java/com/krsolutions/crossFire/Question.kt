@@ -45,6 +45,11 @@ object QuestionsBank {
             "People may sneeze or cough while sleeping deeply.",
             false,
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
+        ),
+        Question(
+            "The Mona Liza was stolen from the Louvre in 1911.",
+            true,
+            "It was stolen by Vincenzo Peruggia who had worked at the Museum. The masterpiece was recovered two years later."
         )
     )
 
