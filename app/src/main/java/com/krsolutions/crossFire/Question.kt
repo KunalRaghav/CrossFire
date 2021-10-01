@@ -45,6 +45,11 @@ object QuestionsBank {
             "People may sneeze or cough while sleeping deeply.",
             false,
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
+        ),
+        Question(
+            "The first oranges weren’t orange",
+            true,
+            "The original oranges from Southeast Asia were a tangerine-pomelo hybrid, and they were actually green"
         )
     )
 
