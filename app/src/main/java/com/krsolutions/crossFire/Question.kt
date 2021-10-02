@@ -50,13 +50,53 @@ object QuestionsBank {
             "The first oranges weren’t orange",
             true,
             "The original oranges from Southeast Asia were a tangerine-pomelo hybrid, and they were actually green"
+        ),
+        Question(
+            "The Mona Liza was stolen from the Louvre in 1911.",
+            true,
+            "It was stolen by Vincenzo Peruggia who had worked at the Museum. The masterpiece was recovered two years later."
+        ),
+        Question(
+            "Copyrights depreciate over time.",
+            true,
+            "Because copyrights have an expiration date, their value decreases as that date approaches."
+        ),
+        Question(
+            "Muddy York is a nickname for New York in the Winter.",
+            false,
+            "It’s an old nickname given to Toronto, originally called Town of York in honor of The Duke of York. It refers to historical problems in the city’s drainage system."
+        ),
+        Question(
+            "Does Whales make friends for life ?",
+            true,
+            "They communicate with each other and visit each other. One more proof that animals are not so different from humans."
+        ),
+        Question(
+            "Is the Chinese wall visible from space?",
+            false,
+            "Contrary to what many people say, from space it is impossible to discern any building. Not even the Great Wall of China."
+        ),
+        Question(
+            "Are penguins in love for life?",
+            true,
+            "When the penguins find their partner, it is for life. They even propose to each other by giving each other rocks."
+        ),
+        Question(
+            "You only use 10 percent of your brain.",
+            false,
+            "Modern PET and MRI scans of brain activity show that humans use way more than 10 percent of their gray matter on a regular basis -- though it might seem like some people use way less"
+        ),
+        Question(
+            "One in every 200 men on Earth is descended from Genghis Khan.",
+            true,
+            "The 13th century Mongolian warrior not only conquered many villages, but also took plenty of lovers. That's 0.5 percent of the male population or 16 million people share Khan's DNA."
         )
     )
 
 
     fun getFiveRandomQuestion(): List<Question>{
         questions.shuffle()
-        return questions.subList(0,5);
+        return questions.subList(0,5)
     }
 
 
