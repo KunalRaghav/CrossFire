@@ -47,6 +47,11 @@ object QuestionsBank {
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
         ),
         Question(
+            "Matches were invented before lighters.",
+            false,
+            "The first push-button lighter, the Döbereiner Lamp, was invented in 1824. The practical friction matches similar to what we use today were invented in 1827."
+        ),
+        Question(
             "The heaviest pumpkin ever weighed more than a tonne.",
             true,
             "The heaviest pumpkin weighed 1190.49 kg (2624.6 lb) and was grown by Mathias Willemijns from Belgium."
