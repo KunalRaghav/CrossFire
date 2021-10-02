@@ -47,6 +47,16 @@ object QuestionsBank {
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
         ),
         Question(
+            "Copyrights depreciate over time.",
+            true,
+            "Because copyrights have an expiration date, their value decreases as that date approaches."
+        ),
+        Question(
+            "Muddy York is a nickname for New York in the Winter.",
+            false,
+            "It’s an old nickname given to Toronto, originally called Town of York in honor of The Duke of York. It refers to historical problems in the city’s drainage system."
+        ),
+        Question(
             "Does Whales make friends for life ?",
             true,
             "They communicate with each other and visit each other. One more proof that animals are not so different from humans."
@@ -69,7 +79,7 @@ object QuestionsBank {
         Question(
             "One in every 200 men on Earth is descended from Genghis Khan.",
             true,
-"The 13th century Mongolian warrior not only conquered many villages, but also took plenty of lovers. That's 0.5 percent of the male population or 16 million people share Khan's DNA."
+            "The 13th century Mongolian warrior not only conquered many villages, but also took plenty of lovers. That's 0.5 percent of the male population or 16 million people share Khan's DNA."
         )
     )
 
