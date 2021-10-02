@@ -100,6 +100,11 @@ object QuestionsBank {
             "One in every 200 men on Earth is descended from Genghis Khan.",
             true,
             "The 13th century Mongolian warrior not only conquered many villages, but also took plenty of lovers. That's 0.5 percent of the male population or 16 million people share Khan's DNA."
+        ),
+        Question(
+            "The Statue of Liberty was a gift from France to America.",
+            true,
+            "It was a gift to America on the 100th anniversary of the Declaration of Independence."
         )
     )
 
