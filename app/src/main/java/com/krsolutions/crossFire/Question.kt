@@ -45,13 +45,38 @@ object QuestionsBank {
             "People may sneeze or cough while sleeping deeply.",
             false,
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
+        ),
+        Question(
+            "Does Whales make friends for life ?",
+            true,
+            "They communicate with each other and visit each other. One more proof that animals are not so different from humans."
+        ),
+        Question(
+            "Is the Chinese wall visible from space?",
+            false,
+            "Contrary to what many people say, from space it is impossible to discern any building. Not even the Great Wall of China."
+        ),
+        Question(
+            "Are penguins in love for life?",
+            true,
+            "When the penguins find their partner, it is for life. They even propose to each other by giving each other rocks."
+        ),
+        Question(
+            "You only use 10 percent of your brain.",
+            false,
+            "Modern PET and MRI scans of brain activity show that humans use way more than 10 percent of their gray matter on a regular basis -- though it might seem like some people use way less"
+        ),
+        Question(
+            "One in every 200 men on Earth is descended from Genghis Khan.",
+            true,
+"The 13th century Mongolian warrior not only conquered many villages, but also took plenty of lovers. That's 0.5 percent of the male population or 16 million people share Khan's DNA."
         )
     )
 
 
     fun getFiveRandomQuestion(): List<Question>{
         questions.shuffle()
-        return questions.subList(0,5);
+        return questions.subList(0,5)
     }
 
 
