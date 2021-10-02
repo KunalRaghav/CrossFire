@@ -47,6 +47,11 @@ object QuestionsBank {
             "We can’t sneeze or cough when in deep sleep. Our body must enter a state of wakefulness to do so."
         ),
         Question(
+            "The heaviest pumpkin ever weighed more than a tonne.",
+            true,
+            "The heaviest pumpkin weighed 1190.49 kg (2624.6 lb) and was grown by Mathias Willemijns from Belgium."
+        ),
+        Question(
             "The first oranges weren’t orange",
             true,
             "The original oranges from Southeast Asia were a tangerine-pomelo hybrid, and they were actually green"
