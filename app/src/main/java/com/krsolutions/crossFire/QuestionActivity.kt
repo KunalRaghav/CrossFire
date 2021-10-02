@@ -24,7 +24,25 @@ class QuestionActivity : AppCompatActivity() {
         binding.trueOption.setOnClickListener(onAnsClickListener)
         binding.falseOption.setOnClickListener(onAnsClickListener)
         binding.question.text = questionsBank[questionNum].question
-        binding.counter.text ="${questionNum+1}/${questionsBank.size}"
+        binding.counter.text = "${questionNum+1}/${questionsBank.size}"
+
+        if (savedInstanceState != null) {
+            questionNum = savedInstanceState.getInt("questionNum")
+            binding.trueOption.text = savedInstanceState.getString("true")
+            binding.falseOption.text = savedInstanceState.getString("false")
+            binding.question.text = savedInstanceState.getString("question")
+            binding.counter.text = savedInstanceState.getString("counter")
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        outState.putString("true",binding.trueOption.text.toString())
+        outState.putString("false",binding.falseOption.text.toString())
+        outState.putString("question",binding.question.text.toString())
+        outState.putString("counter",binding.counter.text.toString())
+        outState.putInt("questionNum",questionNum)
     }
 
     private val onAnsClickListener = View.OnClickListener {
