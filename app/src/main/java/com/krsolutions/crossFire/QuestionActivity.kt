@@ -21,6 +21,7 @@ class QuestionActivity : AppCompatActivity() {
         binding = ActivityQuestionBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
         binding.trueOption.setOnClickListener(onAnsClickListener)
         binding.falseOption.setOnClickListener(onAnsClickListener)
         binding.question.text = questionsBank[questionNum].question
@@ -112,5 +113,27 @@ class QuestionActivity : AppCompatActivity() {
                 finish()
             }
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        val saveQuestionNum = questionNum
+        val saveCorrectCounter = correctCounter
+
+        outState.putInt("saveQuestionNum", saveQuestionNum)
+        outState.putInt("saveCorrectCounter", saveCorrectCounter)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+
+        val savedQuestionNum = savedInstanceState.getInt("saveQuestionNum")
+        questionNum = savedQuestionNum
+
+        val savedCorrectCounter = savedInstanceState.getInt("saveCorrectCounter")
+        correctCounter = savedCorrectCounter
+
+        binding.counter.text ="${questionNum+1}/${questionsBank.size}"
     }
 }
