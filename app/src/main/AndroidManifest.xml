@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_fire_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CrossFire">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

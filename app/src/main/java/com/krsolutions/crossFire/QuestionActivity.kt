@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.os.PersistableBundle
+import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.krsolutions.crossFire.databinding.ActivityQuestionBinding
@@ -21,6 +23,7 @@ class QuestionActivity : AppCompatActivity() {
         binding = ActivityQuestionBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
         binding.trueOption.setOnClickListener(onAnsClickListener)
         binding.falseOption.setOnClickListener(onAnsClickListener)
         binding.question.text = questionsBank[questionNum].question
@@ -112,5 +115,28 @@ class QuestionActivity : AppCompatActivity() {
                 finish()
             }
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        val saveQuestionNum = questionNum
+        val saveCorrectCounter = correctCounter
+
+        outState.putInt("saveQuestionNum", saveQuestionNum)
+        outState.putInt("saveCorrectCounter", saveCorrectCounter)
+        Log.d("Saved Number ", saveQuestionNum.toString())
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+
+        val savedQuestionNum = savedInstanceState.getInt("saveQuestionNum")
+        questionNum = savedQuestionNum
+
+        val savedCorrectCounter = savedInstanceState.getInt("saveCorrectCounter")
+        correctCounter = savedCorrectCounter
+
+        binding.counter.text ="${questionNum+1}/${questionsBank.size}"
     }
 }

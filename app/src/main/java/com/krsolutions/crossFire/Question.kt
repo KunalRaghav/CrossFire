@@ -17,6 +17,11 @@ object QuestionsBank {
             "Coffee is consumed by about one-third of Earth's population."
         ),
         Question(
+          "Candi Sewu in Indonesia only made in 1 night.",
+            isTrue = true,
+            "There's a legend about Candi Sewu where the all of the candi (sewu means 1000) only made in 1 night because of love."
+        ),
+        Question(
             "Approximately one quarter of human bones are in the feet",
             true,
             "True – 52 bones in the feet and 206 in the whole body."
