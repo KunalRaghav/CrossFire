@@ -105,6 +105,11 @@ object QuestionsBank {
             "The Statue of Liberty was a gift from France to America.",
             true,
             "It was a gift to America on the 100th anniversary of the Declaration of Independence."
+        ),
+        Question(
+            "Bhutan is the only country in the world that doesn't have a rectangular flag.",
+            false,
+            "Nepal is the only country in the world that has a non-rectangular flag. Its flag is a combination of two single pennons."
         )
     )
 
