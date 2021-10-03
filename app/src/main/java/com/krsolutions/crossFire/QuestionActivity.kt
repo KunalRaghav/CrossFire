@@ -5,8 +5,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.os.PersistableBundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.krsolutions.crossFire.databinding.ActivityQuestionBinding
@@ -125,7 +123,6 @@ class QuestionActivity : AppCompatActivity() {
 
         outState.putInt("saveQuestionNum", saveQuestionNum)
         outState.putInt("saveCorrectCounter", saveCorrectCounter)
-        Log.d("Saved Number ", saveQuestionNum.toString())
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
