@@ -117,6 +117,56 @@ object QuestionsBank {
             "Nepal is the only country in the world that has a non-rectangular flag. Its flag is a combination of two single pennons."
         ),
         Question(
+            "Cats were revered animals in ancient Egypt?",
+            true,
+            "They were revered for more than 3,000 years. Several ancient Egyptian deities were depicted and sculptured with cat-like heads such as Mafdet, Bastet and Sekhmet, representing justice, fertility and power."
+        ),
+        Question(
+            "Vitamin C is also known by the chemical name of Ascorbic Acid.",
+            true,
+            "Ascorbic acid is the form of vitamin C found naturally in food. It has good bioavailability but some people find it too acidic on their gut and can’t tolerate higher doses."
+        ),
+        Question(
+            "Popping your finger or toe knuckles is bad for your joints.",
+            false,
+            "There is no scientific proof, it doesn't cause arthritis or make your knuckles larger, but it can be distracting or loud to people around you."
+        ),
+        Question(
+            "The liver is the largest organ in the human body.",
+            false,
+            "The human body’s largest organ is the skin."
+        ),
+        Question(
+            "Confucius is a world-renowned Latin philosopher.",
+            false,
+            "Despite the sound of his name, Confucius was chinese."
+        ),
+        Question(
+            "Athlete Usain Bolt is faster than a cheetah.",
+            false,
+            "Not quite. Bolt is fast, but the cheetah could outpace Bolt at about three times his top speed."
+        ),
+        Question(
+            "Rio de Janeiro is the capital city of Brazil.",
+            false,
+            "False. The capital of Brazil is the city of Brasília. Rio de Janeiro is Brazil’s second most populated city."
+        ),
+        Question(
+            "Grapefruit can cause poisoning if consumed with some prescribed drugs.",
+            true,
+            "Grapefruit has components that block enzymes that serve to break down drugs and eliminate them from the body."
+        ),
+        Question(
+            "Human teeth are just as strong as the teeth of a mature shark.",
+            true,
+            "The crystals in human teeth have a special arrangement and they are 'glued together' by proteins which stop cracks from running through the whole tooth."
+        ),
+        Question(
+            "The lighter was invented before the matches.",
+            true,
+            "The first lighter was produced in 1816. Match-like chemical reactions began back in the 17th century with the discovery of phosphorus, but the true friction match was not invented until 1827."
+        ),
+        Question(
             "Marrakesh is the capital of Morocco",
             false,
             "False - It's Rabat."
