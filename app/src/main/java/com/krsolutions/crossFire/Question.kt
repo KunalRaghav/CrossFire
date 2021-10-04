@@ -115,6 +115,11 @@ object QuestionsBank {
             "Bhutan is the only country in the world that doesn't have a rectangular flag.",
             false,
             "Nepal is the only country in the world that has a non-rectangular flag. Its flag is a combination of two single pennons."
+        ),
+        Question(
+            "Marrakesh is the capital of Morocco",
+            false,
+            "False - It's Rabat."
         )
     )
 
