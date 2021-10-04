@@ -165,6 +165,11 @@ object QuestionsBank {
             "The lighter was invented before the matches.",
             true,
             "The first lighter was produced in 1816. Match-like chemical reactions began back in the 17th century with the discovery of phosphorus, but the true friction match was not invented until 1827."
+        ),
+        Question(
+            "Marrakesh is the capital of Morocco",
+            false,
+            "False - It's Rabat."
         )
     )
 
