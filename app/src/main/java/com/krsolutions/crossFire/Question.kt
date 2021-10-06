@@ -171,6 +171,11 @@ object QuestionsBank {
             false,
             "False - It's Rabat."
         )
+        Question(
+            "The entire world's population could fit inside Los Angeles.",
+            true,
+            "According to National Geographic, if every single person stand shoulder-to-shoulder, they could all fit within the 500 square miles of Los Angeles"
+        )
     )
 
 
