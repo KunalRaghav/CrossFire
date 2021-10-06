@@ -170,6 +170,11 @@ object QuestionsBank {
             "Marrakesh is the capital of Morocco",
             false,
             "False - It's Rabat."
+        ),
+        Question(
+            "Willow is the name of an animal",
+            false,
+            "False - It is a flower."
         )
     )
 
