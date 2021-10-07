@@ -185,6 +185,11 @@ object QuestionsBank {
             "The entire world's population could fit inside Los Angeles.",
             true,
             "According to National Geographic, if every single person stand shoulder-to-shoulder, they could all fit within the 500 square miles of Los Angeles"
+        ),
+        Question(
+            "Flight recorders, popularly known as black box, are orange in colour.",
+            true,
+            "Flight recorders (black box) are painted bright orange to aid in their recovery after accidents."
         )
     )
 
