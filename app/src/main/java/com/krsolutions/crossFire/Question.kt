@@ -190,6 +190,21 @@ object QuestionsBank {
             "Flight recorders, popularly known as black box, are orange in colour.",
             true,
             "Flight recorders (black box) are painted bright orange to aid in their recovery after accidents."
+        ),
+        Question(
+            "Sound waves travel faster than light.",
+            false,
+            "Light travels faster than sound waves."
+        ),
+        Question(
+            "Venus is the hottest planet in the solar system.",
+            true,
+            "Venus has an average surface temperature of around 450° C. Mercury is closer to the sun, but has no atmosphere to regulate temperature it has a very large temperature fluctuation."
+        ),
+        Question(
+            "Thomas Edison discovered gravity.",
+            false,
+            "Isaac Newton discovered Gravity."
         )
     )
 
