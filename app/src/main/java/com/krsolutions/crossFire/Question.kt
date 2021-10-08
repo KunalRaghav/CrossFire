@@ -22,6 +22,11 @@ object QuestionsBank {
             "There's a legend about Candi Sewu where the all of the candi (sewu means 1000) only made in 1 night because of love."
         ),
         Question(
+            "Cinderella was the first Disney princess",
+            false,
+            "Snow White and the Seven Dwarfs was released first in December 1937"
+        ),
+        Question(
             "Approximately one quarter of human bones are in the feet",
             true,
             "True – 52 bones in the feet and 206 in the whole body."
