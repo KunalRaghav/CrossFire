@@ -215,6 +215,21 @@ object QuestionsBank {
             "Thomas Edison discovered gravity.",
             false,
             "Isaac Newton discovered Gravity."
+        ),
+        Question(
+            "Al Pacino was the director of the movie The Godfather.",
+            false,
+            "Francis Ford Coppola was director of the entire triology of The Godfather movie."
+        ),
+        Question(
+            "Walt disney is the biggest Oscar winner.",
+            true,
+            "Walt Disney (1901–66) won or received a total of twenty-six Academy Awards, and holds the record for most Academy Awards in history."
+        ),
+        Question(
+            "In the movie American Psychopath the character Patrick Bateman had some inspiration in Tom Cruise.",
+            true,
+            "The episode where Tom Cruise had a fit of laughter in a David Letterman interview became the inspiration for Christian Bale in building the character Patrick Bateman."
         )
     )
 
