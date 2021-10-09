@@ -177,6 +177,11 @@ object QuestionsBank {
             "False - It's Rabat."
         ),
         Question(
+            "Einstein failed maths in fourth grade.",
+            false,
+            "This is a rumor he always excelled in physics and maths, but it was the non-scientific subjects he was poor in."
+        ),
+        Question(
             "Willow is the name of an animal",
             false,
             "False - It is a flower."
