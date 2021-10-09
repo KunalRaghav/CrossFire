@@ -22,6 +22,11 @@ object QuestionsBank {
             "There's a legend about Candi Sewu where the all of the candi (sewu means 1000) only made in 1 night because of love."
         ),
         Question(
+            "Cinderella was the first Disney princess",
+            false,
+            "Snow White and the Seven Dwarfs was released first in December 1937"
+        ),
+        Question(
             "Approximately one quarter of human bones are in the feet",
             true,
             "True – 52 bones in the feet and 206 in the whole body."
@@ -175,6 +180,41 @@ object QuestionsBank {
             "Einstein failed maths in fourth grade.",
             false,
             "This is a rumor he always excelled in physics and maths, but it was the non-scientific subjects he was poor in."
+        ),
+        Question(
+            "Willow is the name of an animal",
+            false,
+            "False - It is a flower."
+        ),
+        Question(
+            "Coffee helps you lose weight",
+            false,
+            "The stimulating effects of caffeine can slightly — very slightly — increase your metabolism, but not enough to make a dent in your diet, especially in terms of long-term weight loss"
+        )
+        Question(
+            "The entire world's population could fit inside Los Angeles.",
+            true,
+            "According to National Geographic, if every single person stand shoulder-to-shoulder, they could all fit within the 500 square miles of Los Angeles"
+        ),
+        Question(
+            "Flight recorders, popularly known as black box, are orange in colour.",
+            true,
+            "Flight recorders (black box) are painted bright orange to aid in their recovery after accidents."
+        ),
+        Question(
+            "Sound waves travel faster than light.",
+            false,
+            "Light travels faster than sound waves."
+        ),
+        Question(
+            "Venus is the hottest planet in the solar system.",
+            true,
+            "Venus has an average surface temperature of around 450° C. Mercury is closer to the sun, but has no atmosphere to regulate temperature it has a very large temperature fluctuation."
+        ),
+        Question(
+            "Thomas Edison discovered gravity.",
+            false,
+            "Isaac Newton discovered Gravity."
         )
     )
 
