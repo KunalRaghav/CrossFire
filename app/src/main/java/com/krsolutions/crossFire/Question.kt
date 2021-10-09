@@ -210,6 +210,11 @@ object QuestionsBank {
             "Thomas Edison discovered gravity.",
             false,
             "Isaac Newton discovered Gravity."
+        ),
+        Question(
+            "Al Pacino was the director of the movie The Godfather.",
+            false,
+            "Francis Ford Coppola was director of the entire triology of The Godfather movie."
         )
     )
 
