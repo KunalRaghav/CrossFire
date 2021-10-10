@@ -231,6 +231,11 @@ object QuestionsBank {
             true,
             "The episode where Tom Cruise had a fit of laughter in a David Letterman interview became the inspiration for Christian Bale in building the character Patrick Bateman."
         )
+        Question(
+            "The Big Apple is a nickname given to Washington D.C in 1971.",
+            false,
+            "The name refers to New York City. It originated in the 1920s when John Fitz Gerald started a horse racing column called “Around the Big Apple”."
+        )
     )
 
 
