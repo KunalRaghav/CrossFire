@@ -190,7 +190,7 @@ object QuestionsBank {
             "Coffee helps you lose weight",
             false,
             "The stimulating effects of caffeine can slightly — very slightly — increase your metabolism, but not enough to make a dent in your diet, especially in terms of long-term weight loss"
-        )
+        ),
         Question(
             "The entire world's population could fit inside Los Angeles.",
             true,
@@ -230,11 +230,16 @@ object QuestionsBank {
             "In the movie American Psychopath the character Patrick Bateman had some inspiration in Tom Cruise.",
             true,
             "The episode where Tom Cruise had a fit of laughter in a David Letterman interview became the inspiration for Christian Bale in building the character Patrick Bateman."
-        )
+        ),
         Question(
             "The Big Apple is a nickname given to Washington D.C in 1971.",
             false,
             "The name refers to New York City. It originated in the 1920s when John Fitz Gerald started a horse racing column called “Around the Big Apple”."
+        ),
+        Question(
+            "C++ was developed by Bjarne Stroustrup",
+            true,
+            "C++ programming language was developed in 1980 by Bjarne Stroustrup at bell laboratories of AT&T, located in U.S.A. Bjarne Stroustrup is known as the founder of C++ language."
         )
     )
 
