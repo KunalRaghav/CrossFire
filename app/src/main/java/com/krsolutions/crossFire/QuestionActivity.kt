@@ -39,11 +39,18 @@ class QuestionActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
 
+        val saveQuestionNum = questionNum
+        val saveCorrectCounter = correctCounter
+
         outState.putString("true",binding.trueOption.text.toString())
         outState.putString("false",binding.falseOption.text.toString())
         outState.putString("question",binding.question.text.toString())
         outState.putString("counter",binding.counter.text.toString())
         outState.putInt("questionNum",questionNum)
+
+
+        outState.putInt("saveQuestionNum", saveQuestionNum)
+        outState.putInt("saveCorrectCounter", saveCorrectCounter)
     }
 
     private val onAnsClickListener = View.OnClickListener {
@@ -131,16 +138,6 @@ class QuestionActivity : AppCompatActivity() {
                 finish()
             }
         }
-    }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-
-        val saveQuestionNum = questionNum
-        val saveCorrectCounter = correctCounter
-
-        outState.putInt("saveQuestionNum", saveQuestionNum)
-        outState.putInt("saveCorrectCounter", saveCorrectCounter)
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
