@@ -240,6 +240,11 @@ object QuestionsBank {
             "C++ was developed by Bjarne Stroustrup",
             true,
             "C++ programming language was developed in 1980 by Bjarne Stroustrup at bell laboratories of AT&T, located in U.S.A. Bjarne Stroustrup is known as the founder of C++ language."
+        ),
+        Question(
+            "Dark Chocolate are bitter than Milk Chocolate due to its high cocoa content only",
+            false,
+            "Dark chocolate taste bitter as compared to Milk chocolate due to high cocoa content and low sugar levels"
         )
     )
 
