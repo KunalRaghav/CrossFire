@@ -24,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="False – at a low orbit the Great Wall is visible, but no man-made structure is visible from outer space or the moon." />
+        tools:text="False – at a low orbit the Great Wall is visible, but no man-made structure is visible from outer space or the moon."
+        tools:ignore="HardcodedText,UnusedAttribute" />
 
     <TextView
         android:id="@+id/falseOption"
@@ -43,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question"
-        android:elevation="4dp"/>
+        android:elevation="4dp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
 
     <TextView
         android:id="@+id/question"
@@ -71,7 +73,7 @@
         app:layout_constraintTop_toTopOf="@id/loader"
         app:layout_constraintBottom_toBottomOf="@id/loader"
         android:elevation="4dp"
-        />
+        tools:ignore="HardcodedText" />
     <ProgressBar
         android:id="@+id/loader"
         android:indeterminateTint="@color/cardview_dark_background"
