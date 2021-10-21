@@ -12,6 +12,16 @@ data class Question(
 object QuestionsBank {
     private val questions: ArrayList<Question> = arrayListOf(
         Question(
+            "The Government spends exactly ₹1 coin to manufacture a one rupee coin",
+            false,
+            "The average cost of manufacturing a single one rupee coin is ₹1.11."
+        ),
+        Question(
+            "Apartheid was the political system dismantled in South Africa at the end of the 20th century.",
+            true,
+            "Apartheid - the system of legal, racial segregation - governed South Africa from 1948-1994"
+        ),
+        Question(
             "Other than water, coffee is the world's most popular drink.",
             true,
             "Coffee is consumed by about one-third of Earth's population."
