@@ -260,6 +260,11 @@ object QuestionsBank {
             "Dark Chocolate are bitter than Milk Chocolate due to its high cocoa content only",
             false,
             "Dark chocolate taste bitter as compared to Milk chocolate due to high cocoa content and low sugar levels"
+        ),
+        Question(
+            "Kotlin was declared the preferred language for Android Developers in 2019",
+            true,
+            "Google announced in 2019 that Kotlin will be the preferred language for Android Developers"
         )
     )
 
