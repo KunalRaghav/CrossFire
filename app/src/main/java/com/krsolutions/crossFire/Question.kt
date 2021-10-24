@@ -270,6 +270,11 @@ object QuestionsBank {
             "Los Angeles is the Full Name of the City",
             false,
             "Full Name of Los Angeles is El Pueblo de Nuestra Senora la Reina de los Angeles de Porciuncula"
+        ),
+         Question(
+            "The majority of the population is Sikh in India",
+            false,
+            "Nearly 80 percent of India's population are Hindu, 15 percent are Muslim and millions more are Sikh, Jain or Christian."
         )
     )
 
