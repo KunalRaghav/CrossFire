@@ -260,7 +260,12 @@ object QuestionsBank {
             "Dark Chocolate are bitter than Milk Chocolate due to its high cocoa content only",
             false,
             "Dark chocolate taste bitter as compared to Milk chocolate due to high cocoa content and low sugar levels"
-        )
+        ),
+	Question(
+	    "Los Angeles is the Full Name of the City",
+	    false,
+	    "Full Name of Los Angeles is El Pueblo de Nuestra Senora la Reina de los Angeles de Porciuncula"
+	)
     )
 
 
