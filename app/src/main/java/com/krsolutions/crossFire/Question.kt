@@ -265,6 +265,11 @@ object QuestionsBank {
             "Kotlin was declared the preferred language for Android Developers in 2019",
             true,
             "Google announced in 2019 that Kotlin will be the preferred language for Android Developers"
+        ),
+        Question(
+            "Los Angeles is the Full Name of the City",
+            false,
+            "Full Name of Los Angeles is El Pueblo de Nuestra Senora la Reina de los Angeles de Porciuncula"
         )
     )
 
