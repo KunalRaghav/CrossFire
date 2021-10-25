@@ -280,6 +280,11 @@ object QuestionsBank {
             "Strawberry has seeds in it's center",
             false,
             "The strawberry is the only fruit that bears seeds on the outside"
+        ),
+        Question(
+            "The Olympics Used to Award Medals for Art",
+            true,
+            "From 1912 to 1948, the Olympic Games held competitions in the fine arts. Medals were given for literature, architecture, sculpture, painting, and music."
         )
     )
 
