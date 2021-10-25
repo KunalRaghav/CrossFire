@@ -275,6 +275,11 @@ object QuestionsBank {
             "The majority of the population is Sikh in India",
             false,
             "Nearly 80 percent of India's population are Hindu, 15 percent are Muslim and millions more are Sikh, Jain or Christian."
+        ),
+        Question(
+            "Strawberry has seeds in it's center",
+            false,
+            "The strawberry is the only fruit that bears seeds on the outside"
         )
     )
 
