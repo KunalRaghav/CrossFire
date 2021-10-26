@@ -275,6 +275,16 @@ object QuestionsBank {
             "The majority of the population is Sikh in India",
             false,
             "Nearly 80 percent of India's population are Hindu, 15 percent are Muslim and millions more are Sikh, Jain or Christian."
+        ),
+        Question(
+            "Strawberry has seeds in it's center",
+            false,
+            "The strawberry is the only fruit that bears seeds on the outside"
+        ),
+        Question(
+            "The Olympics Used to Award Medals for Art",
+            true,
+            "From 1912 to 1948, the Olympic Games held competitions in the fine arts. Medals were given for literature, architecture, sculpture, painting, and music."
         )
     )
 
