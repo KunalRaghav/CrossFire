@@ -285,6 +285,11 @@ object QuestionsBank {
             "The Olympics Used to Award Medals for Art",
             true,
             "From 1912 to 1948, the Olympic Games held competitions in the fine arts. Medals were given for literature, architecture, sculpture, painting, and music."
+        ),
+        Question(
+            "Twitter's logo bird is called Larry",
+            true,
+            "Twitter's official mascot, the bird which features in the company's logo, is named Larry."
         )
     )
 
