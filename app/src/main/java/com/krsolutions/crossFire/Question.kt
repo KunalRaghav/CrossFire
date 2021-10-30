@@ -290,6 +290,11 @@ object QuestionsBank {
             "Twitter's logo bird is called Larry",
             true,
             "Twitter's official mascot, the bird which features in the company's logo, is named Larry."
+        ),
+        Question(
+            "Facebook didn't changed their name to META",
+            false,
+            "On 28th October, Facebook rebranded their name to META. "
         )
     )
 
