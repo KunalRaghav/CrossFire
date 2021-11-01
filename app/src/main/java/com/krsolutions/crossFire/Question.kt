@@ -290,6 +290,16 @@ object QuestionsBank {
             "Twitter's logo bird is called Larry",
             true,
             "Twitter's official mascot, the bird which features in the company's logo, is named Larry."
+        ),
+        Question(
+            "An octopus has three hearts",
+            true,
+            "an octopus has one main, systemic heart to pumps blood around its body. The two additional hearts are responsible for pumping blood over each of its gills."
+        ),
+        Question(
+            "H&M stands for Hennes & Mauritz",
+            true,
+            "Hennes & Mauritz"
         )
     )
 
