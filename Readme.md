@@ -12,3 +12,8 @@ The app asks random 5 questions when opened with 2 choices if the statement is `
 <p align="center"> <img src="images/screenshot.png"/> </p>
 
 Built 🔴 live on [Youtube](https://www.youtube.com/watch?v=xxK--KsOD4M)
+
+
+
+
+Made with ❤️ 
