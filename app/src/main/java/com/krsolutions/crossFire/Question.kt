@@ -300,6 +300,11 @@ object QuestionsBank {
             "H&M stands for Hennes & Mauritz",
             true,
             "Hennes & Mauritz"
+        ),
+        Question(
+            "Lightning is five times hotter than sun",
+            true,
+            "lightning can heat the air it passes through to 50,000 degrees Fahrenheit (5 times hotter than the surface of the sun)"
         )
     )
 
